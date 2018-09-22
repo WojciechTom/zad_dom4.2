@@ -20,8 +20,8 @@ public class LineCheckTest {
         System.out.println("Dłuższy odcinek to odcinek:");
         System.out.println(werdykt.getNazwaOdc());
         System.out.println("oparty na punktach:");
-        System.out.println(werdykt.p1.getNazwa() + " (" + werdykt.p1.getX() + ", " + werdykt.p1.getY() + ")" );
-        System.out.println(werdykt.p2.getNazwa() + " (" + werdykt.p2.getX() + ", " + werdykt.p2.getY() + ")" );
+        System.out.println(werdykt.getP1().getNazwa() + " (" + werdykt.getP1().getX() + ", " + werdykt.getP1().getY() + ")" );
+        System.out.println(werdykt.getP2().getNazwa() + " (" + werdykt.getP2().getX() + ", " + werdykt.getP2().getY() + ")" );
         System.out.println("o długosći:");
         System.out.println(maszyna.dlugoscOdc(werdykt) + " cm");
 

@@ -1,9 +1,9 @@
 package Odcinek;
 
 public class Point {
-    String Nazwa;
-    int X;
-    int Y;
+    private String Nazwa;
+    private int X;
+    private int Y;
 
     public Point(String nazwa, int x, int y) {
         Nazwa = nazwa;

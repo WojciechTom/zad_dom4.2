@@ -1,9 +1,9 @@
 package Odcinek;
 
 public class Line {
-    String nazwaOdc;
-    Point p1;
-    Point p2;
+    private String nazwaOdc;
+    private Point p1;
+    private Point p2;
 
     public Line(String nazwaOdc, Point p1, Point p2) {
         this.nazwaOdc = nazwaOdc;
