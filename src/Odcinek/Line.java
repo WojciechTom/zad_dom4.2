@@ -34,4 +34,5 @@ public class Line {
     public void setP2(Point p2) {
         this.p2 = p2;
     }
+
 }

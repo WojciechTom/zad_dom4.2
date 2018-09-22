@@ -33,5 +33,6 @@ public class Point {
 
     public void setY(int y) {
         Y = y;
+
     }
 }

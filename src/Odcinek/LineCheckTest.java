@@ -25,5 +25,6 @@ public class LineCheckTest {
         System.out.println("o długosći:");
         System.out.println(maszyna.dlugoscOdc(werdykt) + " cm");
 
+
     }
 }

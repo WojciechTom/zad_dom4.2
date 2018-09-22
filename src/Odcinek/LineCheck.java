@@ -15,7 +15,6 @@ public class LineCheck {
 
     }
 
-
     public double dlugoscOdc(Line odc) {
         double dl = sqrt(pow(odc.getP1().getX() - odc.getP2().getX(), 2) + pow(odc.getP1().getY() - odc.getP2().getY(), 2));
         return dl;
