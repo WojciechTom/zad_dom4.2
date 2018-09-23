@@ -4,11 +4,11 @@ import static java.lang.Math.*;
 
 public class LineCheck {
 
-    Line dluzszyOdcinkek(Line L1, Line L2) {
-        if (dlugoscOdc(L1) < dlugoscOdc(L2)) {
-            return L2;
-        } else if (this.dlugoscOdc(L1) > dlugoscOdc(L2)) {
-            return L1;
+    Line dluzszyOdcinkek(Line l1, Line l2) {
+        if (dlugoscOdc(l1) < dlugoscOdc(l2)) {
+            return l2;
+        } else if (this.dlugoscOdc(l1) > dlugoscOdc(l2)) {
+            return l1;
         } else {
             return null;
         }
